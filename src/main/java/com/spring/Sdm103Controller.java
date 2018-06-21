@@ -24,7 +24,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
  
 @RestController
 class Sdm103Controller {
-  
+   
     @RequestMapping(method = GET, path = "/")
     public String root() {
         return "Afternnon Spring Boot REST service running in Montreal Quebec, served by " + getClass().getName();
